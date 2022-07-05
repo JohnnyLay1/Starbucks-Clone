@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.row {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.container {
+    margin: 24px 0;
+}
+
+.green {
+    color: green;
+}
+
+.main__nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.nav__list {
+    display: flex;
+    align-items: center;
+}
+
+.nav__link {
+    margin-left: 48px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    list-style: 1.5;
+}
+
+.logo {
+    width: 80px;
+}
+
+/*Landing*/
+
+.landing {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.landing__info {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.landing__img {
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.landing__head {
+    font-size: 64px;
+    letter-spacing: 1px;
+}
+
+.landing__para {
+    font-size: 16px;
+    margin: 16px 0;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.coffee {
+    width: 100%;
+    padding-right: 100px;
+}
+
+.btn {
+    padding: 12px 24px;
+    background-color: rgb(0, 105, 0);
+    border: none;
+    border-radius: 32px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+}
+
+.thumbnail {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.thumbnail_img {
+    width: 80px;
+    margin: 0 16px;
+}
