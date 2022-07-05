@@ -72,7 +72,7 @@
 }
 
 .landing__img {
-    width: 60%;
+    width: 50%;
     display: flex;
     align-items: center;
 }
@@ -110,10 +110,52 @@
     display: flex;
     justify-content: center;
     list-style-type: none;
-    cursor: pointer;
 }
 
 .thumbnail_img {
     width: 80px;
-    margin: 0 16px;
+    cursor: pointer;
+    margin: 0 24px;
+}
+
+@media (max-width:970px) {
+    .main__nav {
+        padding: 12px 12px 0 12px;
+    }
+    
+    .landing {
+        display: flex;
+        justify-content: center;
+    }
+
+    .landing__info {
+        width: 100%;
+        text-align: center;
+        margin: 12px;
+    }
+
+    .coffee {
+        padding: 0;
+        margin: 12px;
+    }
+
+    .landing__img{
+        width: 100%;
+    }
+
+    
+}
+
+@media (max-width:530px) {
+    .nav__list {
+        display: none;
+    }
+
+    .landing__head {
+        font-size: 56px;
+    }
+
+    .green {
+        font-size: 72px;
+    }
 }
